@@ -1,0 +1,89 @@
+#desc{
+  text-align: left;
+  font-size: 22px;
+  clear: both;
+  width: 800px;
+  line-height: 40px;
+}
+p{
+  margin-bottom: 3px
+}
+
+li{
+  text-align: left;
+  font-size: 22px;
+}
+
+
+#scroll{
+  height: 80px
+}
+.states path{
+  fill: white;
+  stroke: navy;
+  stroke-width: 2px
+}
+
+.states path:hover{
+  fill: red
+}
+
+.button{
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 15px;
+  float: left;
+  cursor: pointer;
+}
+
+
+#date{
+  float: left;
+  cursor: crosshair;
+}
+
+
+#play{
+  background-color: rgb(121, 210, 121);
+  color: white;
+}
+
+
+#pause{
+  background-color: rgb(255, 64, 0);
+  color: white;
+}
+
+
+h1{
+  width: 100%;
+  margin: 10px;
+  font-size: 40px;
+  text-align: left;
+}
+
+
+body{
+  font-family: Trebuchet MS;
+  background-color: white;
+}
+
+
+#all{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#map{
+  border: 1px solid black;
+  background-color: lightblue
+}
+
+#main{
+  display: inline-block;
+}

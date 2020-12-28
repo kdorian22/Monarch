@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link rel = 'stylesheet' href="./src/monarch.css"> </link>
+</head>
+<body>
+
+<div id = all>
+<div id = 'main'>
+  <h1> Flight of the Monarchs </h1>
+  <svg id = map width=800 height=500> </svg>
+  <div id = scroll>
+    <div id = play class = button>Play</div>
+    <div id = pause style = 'display: none' class = button>Pause</div>
+    <div id = date> </div>
+  </div>
+  <p id = desc>
+    Every year, millions of eastern Monarch butterflies make the massive trek from their
+    overwintering grounds at the Oyamel Fir Forest in central Mexico, to one of a variety of breeding
+    grounds in the US and Canada, and back again.
+    <br><br>
+     In this visual, I use <a href = 'https://www.inaturalist.org/' target = "_blank"> iNaturalist</a> sighting data to animate their remarkable migration.
+     <br><br>
+     Inspired by:
+      <li> Mike Bostock's <a target = "_blank" href = "https://bl.ocks.org/mbostock/6452972"> drag slider</a></li>
+      <li> Micah Stubbs' <a target = "_blank" href = "http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f"> world mapping series</a></li>
+  </p>
+</div>
+
+</div>
+<script src="./src/jquery.js"></script>
+<script src="./src/d3.js"></script>
+<script src="./src/d3-topo.js"></script>
+<script src="./src/d3-contour.js"></script>
+<script src="./src/monarch.js"> </script>
+</body>
+</html>
